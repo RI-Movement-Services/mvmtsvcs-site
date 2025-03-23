@@ -31,7 +31,7 @@ content:
     path: pages
     type: collection
     view: 
-      fields: [ title, pemalink, body ]
+      fields: [ title, permalink ]
     fields:
       - name: body
         label: Body

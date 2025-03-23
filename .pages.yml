@@ -13,7 +13,7 @@ content:
         type: date
         options:
            time: true
-           format: dd-MM-yyyy HH:mm
+           format: yyyy-MM-dd HH:mm
       - name: title
         label: Title
         type: string

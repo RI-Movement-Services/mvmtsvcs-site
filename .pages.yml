@@ -50,6 +50,13 @@ content:
     label: Blog Homepage
     type: file
     path: index.md
+    fields:
+      - name: body
+        label: Body
+        type: rich-text
+      - name: layout
+        hidden: true
+        type: string
   - name: config
     label: Jekyll config
     path: _config.yml

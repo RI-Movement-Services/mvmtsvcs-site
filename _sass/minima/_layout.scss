@@ -11,6 +11,12 @@
   position: relative;
 }
 
+.site-header img {
+  width: 225px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;

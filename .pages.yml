@@ -46,6 +46,9 @@ content:
       - name: permalink
         lable: Permalink
         type: string
+  - name: homepage
+    type: file
+    path: index.md
   - name: config
     label: Jekyll config
     path: _config.yml

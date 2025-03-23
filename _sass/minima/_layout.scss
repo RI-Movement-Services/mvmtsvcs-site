@@ -110,11 +110,13 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background-color: #5D5C5A;
 }
 
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+  color: $background-color;
 }
 
 .contact-list,
@@ -123,9 +125,13 @@
   margin-left: 0;
 }
 
+.contact-list li a {
+  color: $background-color;
+}
+
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: $background-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }

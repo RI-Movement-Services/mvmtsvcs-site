@@ -28,6 +28,7 @@ content:
         type: string
   - name: pages
     label: Pages
+    path: pages
     type: collection
     fields:
       - name: body

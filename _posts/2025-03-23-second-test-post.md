@@ -5,5 +5,3 @@ title: Second Test post
 categories: cats
 ---
 Wow, a second post already!
-
-![](/media/iww_pcun.jpg)

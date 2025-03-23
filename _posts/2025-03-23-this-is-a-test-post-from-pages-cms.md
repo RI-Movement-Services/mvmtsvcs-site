@@ -1,6 +1,5 @@
 ---
 published: true
-date: 2025-03-23
 title: This is a test post from Pages CMS
 ---
 # This is the header
@@ -8,3 +7,6 @@ title: This is a test post from Pages CMS
 *   This is a bulleted
     
 *   list of items
+    
+
+![](/media/ampster.png)

@@ -1,5 +1,16 @@
 media: media
 content:
+  - name: homepage
+    label: Blog Homepage
+    type: file
+    path: index.md
+    fields:
+      - name: body
+        label: Body
+        type: rich-text
+      - name: layout
+        hidden: true
+        type: string
   - name: posts
     label: Posts
     type: collection
@@ -45,17 +56,6 @@ content:
         type: string
       - name: permalink
         lable: Permalink
-        type: string
-  - name: homepage
-    label: Blog Homepage
-    type: file
-    path: index.md
-    fields:
-      - name: body
-        label: Body
-        type: rich-text
-      - name: layout
-        hidden: true
         type: string
   - name: config
     label: Jekyll config

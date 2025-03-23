@@ -58,7 +58,7 @@ content:
         lable: Permalink
         type: string
   - name: config
-    label: Jekyll config
+    label: Blog Metadata
     path: _config.yml
     type: file
     fields:

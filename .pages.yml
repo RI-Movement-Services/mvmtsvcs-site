@@ -47,7 +47,7 @@ content:
         lable: Permalink
         type: string
   - name: homepage
-    label: Homepage
+    label: Blog Homepage
     type: file
     path: index.md
   - name: config

@@ -1,6 +1,6 @@
 ---
 published: true
-date: 2025-03-23
+date: 23-03-2025 20:23
 title: This is a test post from Pages CMS
 ---
 # This is the header

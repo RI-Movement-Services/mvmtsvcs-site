@@ -30,8 +30,9 @@
 }
 
 .site-nav {
-  float: right;
+  float: left;
   line-height: $base-line-height * $base-font-size * 2.25;
+  margin-left: 25px;
 
   .nav-trigger {
     display: none;

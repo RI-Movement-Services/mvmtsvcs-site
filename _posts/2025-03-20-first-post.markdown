@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First Post"
+title:  First Post
 date:   2025-03-20 00:58:18 -0400
 categories: update
 ---

@@ -30,6 +30,8 @@ content:
     label: Pages
     path: pages
     type: collection
+    view: 
+      fields: [ title, pemalink, body ]
     fields:
       - name: body
         label: Body

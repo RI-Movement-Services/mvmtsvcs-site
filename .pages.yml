@@ -26,6 +26,23 @@ content:
       - name: categories
         label: Categories
         type: string
+  - name: pages
+    label: Pages
+    type: collection
+    fields:
+      - name: body
+        label: Body
+        type: rich-text
+      - name: layout
+        type: string
+        default: home
+        hidden: true
+      - name: title
+        label: Title
+        type: string
+      - name: permalink
+        lable: Permalink
+        type: string
   - name: config
     label: Jekyll config
     path: _config.yml

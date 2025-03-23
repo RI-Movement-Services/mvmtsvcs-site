@@ -1,5 +1,4 @@
 ---
-published: true
 layout: post
 title:  "Welcome to Movement Services!"
 date:   2025-03-23 00:58:18 -0400

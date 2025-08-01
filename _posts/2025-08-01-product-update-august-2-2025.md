@@ -12,14 +12,14 @@ Hey everyone—
 
 We hope you’re staying safe and cool during this hot, hot Rhode Island summer.
 
-The Movement Services team is hard at work continuing to build a suite of tools to help power our movement work over the summer and fall. We continue to iterate behind the scenes on boring-but-important data structures that will keep our records clean and our data safe, so you can focus on the important work of organizing.
+The Movement Services team is hard at work continuing to build a suite of tools to help power our movement work over the summer and fall. We continue not just to build new tools, but also to iterate behind the scenes on boring-but-important data structures that will keep our records clean and our data safe, so you can focus on the important work of organizing.
 
 ### **🎉 Major Updates**
 
 1.  Emails emails emails
     
 
-We’ve been working hard to make a polished, _consistent_ email digest for upcoming events, currently to be sent on Sundays. For now, the Calendar Digest will include all events for the coming week, although if more start coming in we may prioritize. As always, the best ways to stay updated on local events will be by checking our calendar directly, and by joining our Signal thread. We look forward to your feedback!
+We’ve been working hard to make a polished, _consistent_ email digest for upcoming events, currently to be sent on Sundays. For now, the Calendar Digest will include all events for the coming week, although if more start coming in we may prioritize. As always, the best ways to stay updated on local events will be by [checking our calendar directly](https://mvsv.io/calendar) and by joining [our Signal thread](https://mvsv.io/signal). We look forward to your feedback!
 
 2.  Movement Services updates
     

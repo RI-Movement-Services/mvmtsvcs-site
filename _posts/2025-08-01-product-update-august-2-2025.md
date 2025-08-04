@@ -16,13 +16,11 @@ The Movement Services team is hard at work continuing to build a suite of tools 
 
 ### **🎉 Major updates**
 
-1.  Emails emails emails
-    
+1️⃣ Emails emails emails
 
 We’ve been working hard to make a polished, _consistent_ email digest for upcoming events, currently to be sent on Sundays. For now, the Calendar Digest will include all events for the coming week, although if more start coming in we may prioritize. As always, the best ways to stay updated on local events will be by [checking our calendar directly](https://mvsv.io/calendar) and by joining [our Signal thread](https://mvsv.io/signal). We look forward to your feedback!
 
-2.  Updates about updates
-    
+2️⃣ Updates about updates
 
 We’re also launching our product update notes—you’re reading our first right now! To avoid spam, we currently plan product update emails only for major rollouts, like the coming launch of our calendar digest emails. These product updates will also include insights into other minor updates, and will give insights into new tools and improvements on the horizon.
 

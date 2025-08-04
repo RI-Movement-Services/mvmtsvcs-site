@@ -1,13 +1,9 @@
 ---
 layout: post
 date: 2025-08-04 16:18
-title: Product Update ▪️ August 4, 2025
+title: Movement Services Product Update
 categories: update
 ---
-# **Movement Services Update**
-
-## August 4, 2025
-
 Hey everyone—
 
 We hope you’re staying safe and cool during this hot, hot Rhode Island summer.

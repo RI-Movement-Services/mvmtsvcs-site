@@ -1,12 +1,12 @@
 ---
 layout: post
-date: 2025-08-02 15:51
-title: Product Update ▪️ August 2, 2025
-categories: product update
+date: 2025-08-04 16:18
+title: Product Update ▪️ August 4, 2025
+categories: update
 ---
 # **Movement Services Update**
 
-## August 1, 2025
+## August 4, 2025
 
 Hey everyone—
 

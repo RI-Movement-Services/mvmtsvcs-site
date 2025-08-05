@@ -46,8 +46,6 @@ We’re also launching our product update notes—you’re reading our first rig
     
 *   [Submit an event to the Movement Calendar ⇢](https://mvsv.io/add)
     
-*   [File a ticket ⇢](https://ri.movementservices.org/ticket)
-    
 *   [Follow us on various social media accounts ⇢](https://linktr.ee/movementservices)
     
 *   [Receive event alerts on Signal ⇢](https://mvsv.io/signal)

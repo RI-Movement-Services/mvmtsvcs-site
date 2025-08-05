@@ -18,12 +18,10 @@ We’ve been working hard to make a polished, _consistent_ email digest for upco
 
 2️⃣ Updates about updates
 
-We’re also launching our product update notes—you’re reading our first right now! To avoid spam, we currently plan product update emails only for major rollouts, like the coming launch of our calendar digest emails. These product updates will also include insights into other minor updates, and will give insights into new tools and improvements on the horizon.
+We’re also launching our product update notes—you’re reading our first right now! These product updates will also include insights into other minor updates, and will give insights into new tools and improvements on the horizon.
 
 ### **🆕 Also shipped**
 
-*   Improvements to our email collection and user tracking
-    
 *   Better ways to flag when an event needs a correction/cancelation
     
 *   Set up “MS Link Sync”—URLs from Facebook, Eventbrite, Mobilize, and Action Network can now be pasted into [our calendar submission form](https://mvsv.io/add) for easier event submission
@@ -33,7 +31,7 @@ We’re also launching our product update notes—you’re reading our first rig
 
 ### **🔧 In active development**
 
-*   Organization pages for the MS website (e.g., show me all the bills RI Working Families Power focused on this year)
+*   Local organization profile pages for the Movement Services website (e.g., show me all the bills 'Climate Action RI' focused on this year)
     
 *   A consistent set of topic tags for issues, bills, and events
     

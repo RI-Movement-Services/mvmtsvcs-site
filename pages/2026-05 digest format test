@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>RIMS Digest — v10 final</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 640px;
+    margin: 40px auto;
+    padding: 0 24px;
+    color: #222;
+    line-height: 1.55;
+    font-size: 16px;
+  }
+  a { color: #8c2394; }
+
+  h2.section-header {
+    color: #8c2394;
+    margin-top: 36px;
+    margin-bottom: 24px;
+    font-size: 1.4em;
+  }
+
+  /* ============ FRONTMATTER ============ */
+  .intro p { margin: 0 0 12px 0; }
+  .intro .reintro {
+    color: #555;
+    font-style: italic;
+    margin-bottom: 16px;
+  }
+  .intro ul {
+    margin: 12px 0;
+    padding-left: 22px;
+  }
+  .intro ul li { margin: 4px 0; }
+  .intro .forward {
+    color: #555;
+    font-style: italic;
+    font-size: 0.95em;
+    margin-top: 16px;
+  }
+
+  /* ============ CALLOUT BOXES ============ */
+  .callout {
+    margin: 16px 0 16px 0;
+    padding: 12px 18px;
+    border-left: 3px solid;
+    border-radius: 2px;
+    font-size: 0.95em;
+  }
+  .callout p { margin: 0 0 6px 0; }
+  .callout p:last-child { margin-bottom: 0; }
+  .callout-label {
+    display: block;
+    font-size: 0.72em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  /* Note (editorial commentary) — purple */
+  .callout-note {
+    background-color: #f7e4f9;
+    border-left-color: #8c2394;
+  }
+  .callout-note .callout-label { color: #8c2394; }
+
+  /* Highlight (don't miss) — red */
+  .callout-highlight {
+    background-color: #f8ebee;
+    border-left-color: #b64257;
+  }
+  .callout-highlight .callout-label { color: #b64257; }
+  .callout-highlight a { color: #b64257; }
+
+  /* Action (do something) — teal */
+  .callout-action {
+    background-color: #e4f9f7;
+    border-left-color: #23948c;
+  }
+  .callout-action .callout-label { color: #23948c; }
+  .callout-action a { color: #23948c; }
+
+  /* ============ EVENTS ============ */
+  .event {
+    border-left: 1px solid #f7e4f9;
+    padding: 4px 0 4px 16px;
+    margin: 0 0 26px 0;
+  }
+  .event-kicker {
+    font-size: 0.72em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #888;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  .event-kicker .kicker-date {
+    color: #222;
+  }
+  .event-title {
+    font-size: 1.18em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1.35;
+  }
+  .event-title a {
+    text-decoration: none;
+    color: #8c2394;
+  }
+  table.meta-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  table.meta-table td {
+    vertical-align: top;
+    padding: 1px 0;
+    line-height: 1.45;
+    font-size: 0.95em;
+  }
+  table.meta-table td.label {
+    width: 60px;
+    font-size: 0.72em;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: #888;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-right: 12px;
+  }
+  table.meta-table td.value { word-break: break-word; }
+  table.meta-table td.value a { word-break: break-all; }
+  .event-description { margin: 0; color: #333; }
+  .terminal {
+    color: #8c2394;
+    font-size: 0.7em;
+    margin-left: 4px;
+    vertical-align: 1px;
+  }
+
+  /* ============ RECURRING ============ */
+  .recurring-group { margin-bottom: 20px; }
+  .recurring-day {
+    font-weight: 700;
+    color: #444;
+    margin: 0 0 6px 0;
+    font-size: 0.95em;
+  }
+  table.recurring-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table.recurring-table td {
+    vertical-align: top;
+    padding: 4px 0;
+    line-height: 1.4;
+    font-size: 0.95em;
+  }
+  table.recurring-table td.time {
+    width: 80px;
+    font-size: 0.78em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #888;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-right: 14px;
+  }
+  table.recurring-table td.event-link a {
+    color: #8c2394;
+    text-decoration: none;
+  }
+  .recurring-location {
+    display: block;
+    color: #777;
+    font-size: 0.9em;
+    margin-top: 1px;
+  }
+
+  .endmatter {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    font-size: 0.95em;
+  }
+  .endmatter p { margin: 8px 0; }
+  .endmatter .disclosure {
+    margin-top: 18px;
+    font-size: 0.85em;
+    color: #777;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ INTRO ============ -->
+<div class="intro">
+  <p>Greetings from RI Movement Services&mdash;</p>
+  <p class="reintro">Your weekly roundup of Rhode Island movement events.</p>
+  <p>This week's digest contains <strong>14 events</strong> and is going to <strong>155 neighbors</strong>.</p>
+  <ul>
+    <li><a href="https://mvsv.io/add">Add your events here.</a></li>
+    <li><a href="https://mvsv.io/calendar">See the full calendar.</a></li>
+  </ul>
+  <p class="forward">Were you forwarded this email? <a href="https://mvsv.io/subscribe">Subscribe here.</a></p>
+</div>
+
+<!-- ============ CALLOUTS (all three for comparison) ============ -->
+
+<div class="callout callout-note">
+  <span class="callout-label">Note from the editors</span>
+  <p>You may notice this week's digest looks a little different — we've redesigned the layout based on subscriber feedback. The events themselves haven't changed. <a href="https://mvsv.io/feedback">Let us know what you think.</a></p>
+</div>
+
+<div class="callout callout-highlight">
+  <span class="callout-label">★ Don't miss</span>
+  <p><strong>Saturday's May Day march</strong> begins at 11am at the State House and ends with a rally at India Point. Over a dozen organizations are co-sponsoring. Bring water and sunscreen.</p>
+</div>
+
+<div class="callout callout-action">
+  <span class="callout-label">⚠ Action needed</span>
+  <p>Senate Bill 2104 (energy affordability) is scheduled for committee vote Tuesday. <a href="https://mvsv.io/sb2104">Call your senator before Monday EOD.</a></p>
+</div>
+
+<!-- ============ EVENTS ============ -->
+<h2 class="section-header">Upcoming Events</h2>
+
+<div class="event">
+  <div class="event-kicker"><span class="kicker-date">Mon Apr 20</span> &middot; Press Conference</div>
+  <div class="event-title"><a href="https://actionnetwork.org/events/energy-affordability-for-all">Energy Affordability for All »</a></div>
+  <table class="meta-table" role="presentation" cellpadding="0" cellspacing="0">
+    <tr><td class="label">When</td><td class="value">5:30pm</td></tr>
+    <tr><td class="label">Where</td><td class="value">George Wiley Center &middot; 32 East Avenue, Pawtucket</td></tr>
+    <tr><td class="label">Who</td><td class="value">George Wiley Center</td></tr>
+    <tr><td class="label">More</td><td class="value"><a href="https://actionnetwork.org/events/energy-affordability-for-all">https://actionnetwork.org/events/energy-affordability-for-all</a></td></tr>
+  </table>
+  <p class="event-description">Despite all the rhetoric from some politicians about affordability, the cost of utilities have only gone up. Join national energy policy expert Diana Hernández, legislative and community leaders for community presentations.<span class="terminal">&nbsp;■</span></p>
+</div>
+
+<div class="event">
+  <div class="event-kicker"><span class="kicker-date">Sat Apr 26</span> &middot; Festival</div>
+  <div class="event-title"><a href="https://example.org/may-day-festival">May Day Festival &amp; Workers' Rights Fair »</a></div>
+  <table class="meta-table" role="presentation" cellpadding="0" cellspacing="0">
+    <tr><td class="label">When</td><td class="value">All day</td></tr>
+    <tr><td class="label">Where</td><td class="value">India Point Park, Providence</td></tr>
+    <tr><td class="label">Who</td><td class="value">RI Working Families Coalition</td></tr>
+    <tr><td class="label">More</td><td class="value"><a href="https://example.org/may-day-festival">https://example.org/may-day-festival</a></td></tr>
+  </table>
+  <p class="event-description">A full day of music, food, speakers, and workshops celebrating worker power and immigrant rights. Performances throughout the afternoon. Family-friendly programming all day.<span class="terminal">&nbsp;■</span></p>
+</div>
+
+<!-- ============ RECURRING EVENTS ============ -->
+<h2 class="section-header">Recurring Events</h2>
+
+<div class="recurring-group">
+  <p class="recurring-day">Saturday May 3</p>
+  <table class="recurring-table" role="presentation" cellpadding="0" cellspacing="0">
+    <tr>
+      <td class="time">All day</td>
+      <td class="event-link">
+        <a href="https://example.org/farmers-market">Hope Street Farmers Market &raquo;</a>
+        <span class="recurring-location">Lippitt Park, Providence</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="time">9:00am</td>
+      <td class="event-link">
+        <a href="https://example.org/sat-cleanup">Riverwalk Cleanup &raquo;</a>
+        <span class="recurring-location">Roger Williams Park</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="time">11:00am</td>
+      <td class="event-link">
+        <a href="https://example.org/mutual-aid">Mutual Aid Distribution &raquo;</a>
+        <span class="recurring-location">Olneyville</span>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div class="recurring-group">
+  <p class="recurring-day">Sunday May 4</p>
+  <table class="recurring-table" role="presentation" cellpadding="0" cellspacing="0">
+    <tr>
+      <td class="time">10:00am</td>
+      <td class="event-link">
+        <a href="https://example.org/sunday-vigil">Standout for a Ceasefire &raquo;</a>
+        <span class="recurring-location">Kennedy Plaza, Providence</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="time">2:00pm</td>
+      <td class="event-link">
+        <a href="https://example.org/utility-rally">Rally for Utility Justice &raquo;</a>
+        <span class="recurring-location">Pawtucket</span>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div class="recurring-group">
+  <p class="recurring-day">Tuesday May 6</p>
+  <table class="recurring-table" role="presentation" cellpadding="0" cellspacing="0">
+    <tr>
+      <td class="time">5:00pm</td>
+      <td class="event-link">
+        <a href="https://example.org/wakefield-bridge">Bridge action &raquo;</a>
+        <span class="recurring-location">Wakefield</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="time">5:30pm</td>
+      <td class="event-link">
+        <a href="https://example.org/narragansett-bridge">Bridge action &raquo;</a>
+        <span class="recurring-location">Narragansett</span>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div class="recurring-group">
+  <p class="recurring-day">Wednesday May 7</p>
+  <table class="recurring-table" role="presentation" cellpadding="0" cellspacing="0">
+    <tr>
+      <td class="time">6:00pm</td>
+      <td class="event-link">
+        <a href="https://example.org/tenant-meeting">DARE Tenant &amp; Homeowner Association &raquo;</a>
+        <span class="recurring-location">Providence</span>
+      </td>
+    </tr>
+    <tr>
+      <td class="time">7:00pm</td>
+      <td class="event-link">
+        <a href="https://example.org/dsa-meeting">Providence DSA Monthly Meeting &raquo;</a>
+        <span class="recurring-location">Knight Memorial Library</span>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- ============ ENDMATTER ============ -->
+<div class="endmatter">
+  <p>Have an event to share? <a href="https://mvsv.io/add"><strong>Add it to the calendar &raquo;</strong></a></p>
+  <p>Forwarded this from a friend? <a href="https://mvsv.io/subscribe"><strong>Subscribe &raquo;</strong></a></p>
+  <p class="disclosure">RI Movement Services aggregates events submitted by community members and organizations. Inclusion in this digest does not constitute endorsement.</p>
+</div>
+
+</body>
+</html>
